@@ -1,6 +1,9 @@
 # mini-program
 Personal website demo
 
+## Overview
+![image](https://github.com/yimingxie/mini-program/blob/master/images/web-img.jpg)  
+
 
 ## Usage
      1.点击右上角的Star
