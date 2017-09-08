@@ -1,0 +1,27 @@
+<view class="index-bg">
+  <image src='../../images/index-bg2.jpg' mode="aspectFill" class='index-bg-img'></image>
+  <view class="index-bg-dark"></view>
+  <view class="index-content">
+    <view class="index-title">TALENXIE</view>
+    <view class="index-list">
+      <view class="index-list-box">
+        <navigator class="index-list-navi" url="../list/list">
+          <view class="index-list-box-p">Project</view>
+        </navigator>
+      </view>
+      <view class="index-list-box">
+        <navigator class="index-list-navi" url="../list/list">
+          <view class="index-list-box-p">Note</view>
+        </navigator>
+      </view>
+      <view class="index-list-box">
+        <navigator class="index-list-navi" url="../roomlist/roomlist">
+          <view class="index-list-box-p">Douyu Live</view>
+        </navigator>
+      </view>
+      
+    </view>
+  </view>
+
+
+</view>

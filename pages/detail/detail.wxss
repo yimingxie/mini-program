@@ -1,0 +1,25 @@
+/* pages/detail/detail.wxss */
+.detail-title{
+  padding: 40rpx 0;
+  border-bottom: 1px dashed #cccccc;
+}
+.detail-title-h{
+  font-size: 32rpx;
+  line-height: 40rpx;
+  color: #000;
+  text-align: center;
+
+}
+.detail-title-p{
+  font-size: 24rpx;
+  line-height: 30rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.detail-content{
+  font-size: 28rpx;
+  line-height: 50rpx;
+  color: #333;
+  padding: 30rpx 0;
+}

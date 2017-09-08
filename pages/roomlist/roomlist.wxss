@@ -1,0 +1,55 @@
+.roomlist_box{
+    float: left;
+    width: 48%;
+    margin-left: 4%;
+    margin-top: 20rpx;
+}
+.roomlist_content .roomlist_box:nth-child(2n+1){
+   margin-left: 0; 
+}
+.room_img{
+  position: relative;
+}
+.room_vertical_src {
+    display: block;
+    width: 100%;
+    height: 130px;
+}
+.room_name_value {
+    display: block;
+    width: 100%;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 10rpx;
+}
+.nickname {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 60rpx;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    font-size: 24rpx;
+}
+.nickname_icon{
+    float: left;
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 10rpx;
+    margin-top: 14rpx;
+}
+.nickname_p{
+    float: left;
+    margin-left: 10rpx;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+

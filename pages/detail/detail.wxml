@@ -1,0 +1,16 @@
+<!--pages/detail/detail.wxml-->
+
+<view class="detail">
+  <view class="wrap">
+    <view class="detail-title">
+      <view class="detail-title-h">{{title}}</view>
+      <view class="detail-title-p">时间：{{datetime}} 来源：{{source}}</view>
+    </view>
+    <view class="detail-content">{{content}}</view>
+  </view>
+
+</view>
+
+
+
+

@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/contact/contact",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/roomlist/roomlist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "谢之城",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#000000",
+    "borderStyle": "#eeeeee",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index-icon.png",
+        "selectedIconPath": "images/index-icon-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/about-icon.png",
+        "selectedIconPath": "images/about-icon-on.png",
+        "text": "关于"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "images/contact-icon.png",
+        "selectedIconPath": "images/contact-icon-on.png",
+        "text": "联系"
+      }
+
+    ]
+  }
+}

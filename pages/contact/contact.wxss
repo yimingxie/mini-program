@@ -1,0 +1,70 @@
+/* pages/contact/contact.wxss */
+.contact{
+  background: #f6f6f6;
+  padding-bottom: 30rpx;
+}
+.contact-title{
+  text-align: center;
+  background: #fff;
+  padding: 30rpx 0;
+}
+.contact-title-h{
+  font-size: 40rpx;
+  color: #000;
+}
+.contact-title-p{
+  font-size: 30rpx;
+  color: #666;
+}
+.contact-list{
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  margin-top: 40rpx;
+  padding: 40rpx 50rpx 60rpx;
+}
+.contact-box{
+  margin-top: 30rpx;
+}
+.contact-box-p{
+  font-size: 28rpx;
+  color: #000;
+}
+.contact-input1{
+  box-sizing: border-box;
+  width: 100%;
+  color: #000;
+  font-size: 28rpx;
+  height: 80rpx;
+  border: 1px solid #ccc;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+}
+.contact-radio{
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.contact-radio label{
+  display: inline-block;
+  margin-right: 30rpx;
+}
+.contact-textarea{
+  box-sizing: border-box;
+  width: 100%;
+  color: #000;
+  font-size: 28rpx;
+  line-height: 36rpx;
+  height: 300rpx;
+  border: 1px solid #ccc;
+  padding: 10rpx 20rpx;
+  margin-top: 20rpx;
+}
+.contact-submit{
+  font-size: 28rpx;
+  background: #09BB07;
+  color: #fff;
+}
+
+
+
+
+

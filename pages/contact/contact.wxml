@@ -1,0 +1,53 @@
+<!--pages/contact/contact.wxml-->
+<view class="contact">
+  <view class="contact-title">
+    <view class="contact-title-h">联系我们</view>
+    <view class="contact-title-p">Contact Us</view>
+  
+  </view>
+
+  <view class="contact-content">
+    <view class="wrap">
+      <view class="contact-list">
+        <form bindsubmit="formSubmit" bindreset="formReset">
+          <view class="contact-box">
+            <view class="contact-box-p">姓名：</view>
+            <input class="contact-input1" name="input" placeholder="Name" />
+          </view>
+          <view class="contact-box">
+            <view class="contact-box-p">性别：</view>
+            <radio-group class="contact-radio" name="radio-group">
+              <label><radio checked value="0"/>男</label>
+              <label><radio value="1"/>女</label>
+            </radio-group>
+          </view>
+          <view class="contact-box">
+            <view class="contact-box-p">电话：</view>
+            <input class="contact-input1" name="input" placeholder="Phone number" />
+          </view>
+          <view class="contact-box">
+            <view class="contact-box-p">QQ：</view>
+            <input class="contact-input1" name="input" placeholder="QQ number" />
+          </view>
+          <view class="contact-box">
+            <view class="contact-box-p">留言：</view>
+            <textarea class="contact-textarea" placeholder="Content"/>
+          </view>
+          <view class="contact-box">
+            <button class="contact-submit" form-type="submit">提交</button>
+          </view>
+        </form>
+      </view>
+
+
+    </view>
+  </view>
+
+
+</view>
+
+
+
+
+
+

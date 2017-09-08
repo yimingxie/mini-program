@@ -1,0 +1,56 @@
+/* pages/list/list.wxss */
+.list-swiper{
+  height: 400rpx;
+}
+.list-banner-img{
+   width: 100%;
+}
+.list-title-h{
+  font-size: 36rpx;
+  line-height: 80rpx;
+  color: #000;
+}
+.list-c{
+  margin-top: -30rpx;
+}
+.list-box{
+  float: left;
+  width: 48%;
+  margin-left: 4%;
+  margin-top: 30rpx;
+}
+.list-c .list-box:nth-child(2n+1){
+  margin-left: 0;
+}
+.list-box-img{
+  width: 100%;
+  height: 240rpx;
+  border-radius: 4px;
+}
+.list-box-h{
+  font-size: 28rpx;
+  line-height: 28rpx;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 16rpx 0;
+}
+.list-box-p{
+  font-size: 24rpx;
+  line-height: 30rpx;
+  height: 60rpx;
+  overflow: hidden;
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+

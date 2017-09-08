@@ -1,0 +1,35 @@
+/* pages/about/about.wxss */
+.userinfo{
+  padding: 50rpx;
+}
+.userinfo-avatar {
+  display: block;
+  width: 140rpx;
+  height: 140rpx;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.userinfo-nickname {
+  display: block;
+  color: #333;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.about-content{
+  font-size: 28rpx;
+  line-height: 50rpx;
+  color: #333;
+  padding: 10rpx 0;
+  text-indent: 2em;
+  margin-top: 30rpx;
+}
+.about-contact{
+  margin-top: 10rpx;
+  text-align: right;
+  font-size: 24rpx;
+  color: #999;
+  padding-bottom: 30rpx;
+}
+.about-contact-a{
+  display: inline-block;
+}

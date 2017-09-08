@@ -1,0 +1,25 @@
+<View class="live">
+
+    <view class="roomlist" >
+      <view class="wrap">
+        <view class="roomlist_content clearfix">
+          <!-- 盒子 -->
+          <view class="roomlist_box" wx:for-items="{{roomlist}}">
+            <view id="{{item.room_id}}" class="room_lists"  bindtap="clickroom">
+              <view class="room_img">
+                <image class="room_vertical_src" src="{{item.vertical_src}}" mode="aspectFill"></image>
+                <view class="nickname clearfix">
+                  <image class="nickname_icon" src="../../images/vip.png"></image>
+                  <view class="nickname_p">{{item.nickname}}</view>
+                </view>
+              </view>
+              <view class="room_name">
+                <text class="room_name_value">{{item.room_name}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+</View>

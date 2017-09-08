@@ -1,0 +1,67 @@
+<!--pages/list/list.wxml-->
+<view class="list">
+  <!-- banner -->
+  <swiper class="list-swiper" indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFill" class="list-banner-img"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="list-content">
+    <view class="wrap">
+      <view class="list-title">
+        <view class="list-title-h">列表</view>
+      </view>
+
+      <view class="list-c clearfix">
+        <view class="list-box">
+          <navigator url="../detail/detail">
+            <image src="../../images/list1.png" mode="aspectFill" class="list-box-img"></image>
+            <view class="list-box-h">低轨卫星互联网的太空竞赛，技术与资金的竞争</view>
+            <view class="list-box-p">One Web、Space X、谷歌、Facebook、波音等巨头，将距离地球200-2000公里的低轨道当成太空互联网“金矿”。</view>
+          </navigator>
+        </view>
+        <view class="list-box">
+          <navigator url="">
+            <image src="../../images/list2.png" mode="aspectFill" class="list-box-img"></image>
+            <view class="list-box-h">低轨卫星互联网的太空竞赛，技术与资金的竞争</view>
+            <view class="list-box-p">One Web、Space X、谷歌、Facebook、波音等巨头，将距离地球200-2000公里的低轨道当成太空互联网“金矿”。</view>
+          </navigator>
+        </view>
+        <view class="list-box">
+          <navigator url="">
+            <image src="../../images/list1.png" mode="aspectFill" class="list-box-img"></image>
+            <view class="list-box-h">低轨卫星互联网的太空竞赛，技术与资金的竞争</view>
+            <view class="list-box-p">One Web、Space X、谷歌、Facebook、波音等巨头，将距离地球200-2000公里的低轨道当成太空互联网“金矿”。</view>
+          </navigator>
+        </view>
+        <view class="list-box">
+          <navigator url="">
+            <image src="../../images/list2.png" mode="aspectFill" class="list-box-img"></image>
+            <view class="list-box-h">低轨卫星互联网的太空竞赛，技术与资金的竞争</view>
+            <view class="list-box-p">One Web、Space X、谷歌、Facebook、波音等巨头，将距离地球200-2000公里的低轨道当成太空互联网“金矿”。</view>
+          </navigator>
+        </view>
+
+
+      </view>
+
+
+
+    </view>
+ 
+
+  </view>
+
+
+
+</view>
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+/* pages/index/index.wxss */
+.index-bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url() no-repeat center center; */
+  /* background-size: cover; */
+}
+.index-bg-img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.index-bg-dark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.6;
+}
+.index-content{
+  position: relative;
+  z-index: 2;
+}
+.index-title{
+  color: #fff;
+  font-size: 80rpx;
+  text-align: center;
+  font-weight: bolder;
+  opacity: 0.6;
+  padding-top: 150rpx;
+  letter-spacing: 4px;
+}
+.index-list-box{
+  text-align: center;
+}
+.index-list-navi{
+  display: inline-block;
+}
+.index-list-box-p{
+  display: inline-block;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  color: #fff;
+  min-width: 200rpx;
+  padding: 20rpx 30rpx;
+  border: 1px solid #fff;
+  margin-top: 50rpx;
+  opacity: 0.5;
+  border-radius: 2px;  
+}
+
+
